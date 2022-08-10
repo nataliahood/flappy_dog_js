@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Dog 🐶</title>
+    <style>
+        body {
+            position: fixed;
+            left: -9px;
+            top: -8px;
+            width: 288px;
+            height: 512px;
+            background-image: url("img/bg.png");
+            background-repeat: no-repeat;
+            border: 1px solid #999;
+        }
+        #startButton {
+            border: none;
+            background-color: transparent;
+            border-radius: 3px;
+        }
+
+        #startButton:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    </style>
+</head>
+<body bgcolor="#000">
+    <div id="startBg">
+    <button id="startButton">
+        <img class="start" src="img/start.png" alt="start">
+    </button>
+    </div>
+    <canvas id="canvas" width="288" height="512" style="display:none"></canvas>
+    <script src="flappy_game.js"></script>
+</body>
+</html>
