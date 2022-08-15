@@ -1,2 +1,2 @@
 # flappy_dog_js
-Мини-игра по типу Flappy Bird на JavaScript, Canvas
+Браузерная мини-игра на JavaScript, Canvas. Основана на идее Flappy Bird.
